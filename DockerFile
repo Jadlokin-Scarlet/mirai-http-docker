@@ -1,0 +1,5 @@
+FROM openjdk:11
+WORKDIR /root
+ADD ./ ./
+RUN java -jar ./mcl.jar --dry-run
+ENTRYPOINT ["java", "-jar", "./mcl.jar"]
