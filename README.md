@@ -21,8 +21,7 @@ git clone https://github.com/Jadlokin-Scarlet/tilitili-mirai
 ```
  docker build -f DockerFile -t mirai .
 ```
-4. 停掉shell mirai
-5. 运行镜像
+4. 运行镜像
 ```
 docker run --name mirai -p 8080:8080 -d mirai
 ```
