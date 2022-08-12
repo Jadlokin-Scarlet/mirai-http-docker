@@ -5,7 +5,7 @@
 ## 改造本模板
 1. clone源码
 ```
-git clone https://github.com/Jadlokin-Scarlet/tilitili-mirai
+git clone https://github.com/Jadlokin-Scarlet/mirai-http-docker
 ```
 2. 改造模板
 
