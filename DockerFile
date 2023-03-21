@@ -1,4 +1,5 @@
-FROM openjdk:11
+FROM openjdk:11-jre
+ENV TZ Asia/Shanghai
 WORKDIR /root
 ADD ./ ./
 RUN java -jar ./mcl.jar --dry-run
