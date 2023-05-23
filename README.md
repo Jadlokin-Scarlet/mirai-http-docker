@@ -23,8 +23,9 @@ git clone https://github.com/Jadlokin-Scarlet/mirai-http-docker
 ```
 4. 运行镜像
 ```
-docker run --name mirai -p 8080:8080 -d mirai
+docker run --name mirai -p 8080:8080 -it mirai
 ```
+5. 登陆完毕后CTRL+P+Q切入后台运行
 
 ## 迁移shell mirai至docker步骤
 1. clone源码
@@ -39,5 +40,6 @@ git clone https://github.com/Jadlokin-Scarlet/mirai
 4. 停掉shell mirai
 5. 运行镜像
 ```
-docker run --name mirai -p {ip}:{ip} -d mirai
+docker run --name mirai -p {ip}:{ip} -it mirai
 ```
+5. 登陆完毕后CTRL+P+Q切入后台运行
