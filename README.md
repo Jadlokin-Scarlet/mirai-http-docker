@@ -2,6 +2,9 @@
 把shell运行的mirai迁移到docker中的一种打包方式，可以根据本模板为自己的mirai设计打包脚本
 
 可以选择改造本模板或直接迁移已有的shell mirai项目
+
+请自备qsign，修改KFCFactory.json和替换android_phone.json，要用的协议版本为ANDROID_PHONE 8.9.63
+
 ## 改造本模板
 1. clone源码
 ```
