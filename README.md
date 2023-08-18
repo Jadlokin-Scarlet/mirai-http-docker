@@ -18,7 +18,7 @@ git clone https://github.com/Jadlokin-Scarlet/mirai-http-docker
 
 2.3 修改AutoLogin.yml将QQbot的账号密码填进去
 
-2.4 如果遇到设备验证问题无法登陆的话，把device.json放到/bots/{botQQ}/device.json，该文件获取方法请参考社区最新解决方案
+2.4 如果遇到设备验证问题无法登陆的话，把device.json放到/bots/{botQQ}/device.json，该文件获取方法请参考社区最新解决方案(https://mirai.mamoe.net/topic/223)
 
 3. 构建镜像
 ```
