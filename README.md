@@ -3,8 +3,6 @@
 
 可以选择改造本模板或直接迁移已有的shell mirai项目
 
-请自备qsign，修改KFCFactory.json和替换android_phone.json，要用的协议版本为ANDROID_PHONE 8.9.63
-
 ## 改造本模板
 1. clone源码
 ```
@@ -17,8 +15,6 @@ git clone https://github.com/Jadlokin-Scarlet/mirai-http-docker
 2.2 将配置文件放到config里。(例如/config/net.mamoe.mirai-api-http/setting.yml)
 
 2.3 修改AutoLogin.yml将QQbot的账号密码填进去
-
-2.4 如果遇到设备验证问题无法登陆的话，自备qsign，修改KFCFactory.json和替换android_phone.json，要用的协议版本为ANDROID_PHONE 8.9.63，具体细节请参考社区最新解决方案(https://mirai.mamoe.net/topic/223)
 
 3. 构建镜像
 ```
